@@ -11,7 +11,6 @@ const Signin = () => {
 
   React.useEffect(() => {
     if (session) {
-      console.log(':::', session)
       router.push('/app')
     }
   }, [session, router])
